@@ -1,10 +1,10 @@
- #**Now** **I** **Understand**
+ # **Now** **I** **Understand**
  ##A New Type of Sign Language Translator
 
  **Ezra** **Huska**
 
 
- ##**Abstract**
+ ## **Abstract**
 
 357 000, that is the estimated number of deaf Canadians. Also, there is
 a shortage of sign language translators/interpreters. This means many
@@ -22,7 +22,7 @@ a translator and an assistant. While still in the early stages of
 development this project has the potential to help thousands of people
 in Canada and millions around the world.
 
-##Table of contents: 
+## Table of contents: 
 -Why
 
 -Problems with existing projects 

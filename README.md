@@ -226,8 +226,7 @@ letters: a, b, d, f, h, i, l, o, r, s, u, v, w, y,
 
 numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-words: hello, my, name(is), ILY (I Love You), I, want I plan to expand
-these in the very near future
+words: hello, my, name(is), ILY (I Love You), I, want, cookie, no, more, yes, your, you, meet
 
 With those I was able to get my project to recognize a few sentences and
 have reactions to them.

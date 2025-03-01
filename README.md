@@ -1,12 +1,10 @@
- **Now** **I** **Understand**
->
-> A New Type of Sign Language Translator
->
-> **Ezra** **Huska**
->
-> **Grade** **8,** **Acadia** **Junior** **High** **School**
->
-> **Abstract**
+ #**Now** **I** **Understand**
+ ##A New Type of Sign Language Translator
+
+ **Ezra** **Huska**
+
+
+ ##**Abstract**
 
 357 000, that is the estimated number of deaf Canadians. Also, there is
 a shortage of sign language translators/interpreters. This means many
@@ -24,19 +22,26 @@ a translator and an assistant. While still in the early stages of
 development this project has the potential to help thousands of people
 in Canada and millions around the world.
 
-Table of contents: -Why
+##Table of contents: 
+-Why
 
--Problems with existing projects -How
+-Problems with existing projects 
 
--Face detection -Words
+-How
 
--What (What I did) -Conclusion
+-Face detection 
+
+-Words
+
+-What (What I did) 
+
+-Conclusion
 
 -What’s Next
 
 -Thanks, Bibliography
 
-> **Why**
+## **Why**
 
 Did you know that nearly **20%** of the world’s population has hearing
 loss and **6.1%** is deaf? Did you also know that according to the
@@ -67,13 +72,13 @@ signs require movement and specific hand location in relation to the
 face. I have been working on something that mixes both machine learning
 and some math to allow mobile signs.
 
-> **Problems** **with** **existing** **projects**
+## **Problems** **with** **existing** **projects**
 
 There are two main problems with existing digital sign language
 translators, lack of face, and lack of movement. There is also one major
 problem with most existing systems.
 
-> **1.** **Lack** **of** **face**
+### **1.** **Lack** **of** **face**
 
 Simply put by a former sign language interpreter, “the grammar is on
 your face.” This is after being asked if you need to see a face when
@@ -86,7 +91,7 @@ problem in the “Face Detection” section.
 <img src="./rdpvfgbl.png"
 style="width:6.0625in;height:2.10417in" />
 
-> **2.** **Lack** **of** **movement**
+### **2.** **Lack** **of** **movement**
 
 As I commented on earlier and am repeating, sign language gets most of
 its meaning from the movement of the hands. This is about equal if not
@@ -100,12 +105,12 @@ sign language using finger spelling it is very impractical. Along with
 that it is slow. It is only necessitated because of the lack of the two
 things listed above.
 
-> **How**
+## **How**
 
 To make this project, I used over 275 lines of code split into 4 main
 steps from taking an input frame and giving an output frame.
 
-> **1.** **Data** **Collection**
+### **1.** **Data** **Collection**
 
 First, the frame is taken in from the camera, then it is put through a
 pre-trained neural network to detect if there is a hand in frame. In
@@ -117,14 +122,14 @@ It also looks for faces, but instead of detecting an actual face, the
 patterns of darkness that resemble a face are detected. (See Face
 detection section)
 
-> **2.** **First** **Usage**
+### **2.** **First** **Usage**
 
 Next, the information is passed on to a part where it converts the
 location of hand landmarks on a hand to each other. Then it just does
 simple subtraction to find out whether a finger is up or down, crossed
 over each other, etc.
 
-> **3.** **Advanced** **Translation**
+### **3.** **Advanced** **Translation**
 
 Then all that information is used to either make single letters or whole
 words. 1. Letters: The information gathered from step 2 is used to make
@@ -137,12 +142,12 @@ shapes, or if it is in a static word position.
 make the more complex words. To add words with motion I used many
 variables to say when it is here, then here. (More in Words section)
 
-> **4.** **Output**
+### **4.** **Output**
 
 Finally, the display. I send all the information back to be displayed or
 used for later.
 
-> **Face** **Detection**
+## **Face** **Detection**
 
 This is done by a classifier, a classifier is a pre-trained program that
 detects objects, if it sees that object, it outputs “1” and “0”
@@ -175,7 +180,7 @@ This difference is then compared to a threshold that determines whether
 this is a good match or not. A frame that matches a predefined number of
 features is considered to be a frame with a face.
 
-> **Words**
+## **Words**
 
 To understand How I made my project recognize words, you first must
 understand how it detects letters.
@@ -199,7 +204,7 @@ approximate distance away. Even with this ability, to avoid a lot of
 troubles and latency, I skipped the small movements that are in sign
 language and only accounted for the more grand ones.
 
-> **What**
+## **What**
 
 As a sign language interpreter told me, **"The** **grammar** **is**
 **on** **your** **face"** and the fact that **movement** **is** **a**
@@ -226,7 +231,7 @@ these in the very near future
 With those I was able to get my project to recognize a few sentences and
 have reactions to them.
 
-> **Conclusion**
+## **Conclusion**
 
 My project has made two leaps for the future of digital sign language
 translation, face detection and mobile signs (Full words). These two
@@ -242,26 +247,26 @@ increased rate of psychiatric disorders, and that can lead to a
 there is hope! With projects like this the world can become a more
 welcoming and inclusive place.
 
-> **What’s** **next**
+## **What’s** **next**
 
 This project is not done and there are 3 main things that could be done.
 
-**1.** **Expanded** **vocabulary**
+###**1.** **Expanded** **vocabulary**
 
 Sign language is a large language with between 40,000 and 140,000 words.
 So, the vocabulary could be expanded to use more of these words.
 
-**2.** **Accuracy** **and** **speed**
+###**2.** **Accuracy** **and** **speed**
 
 With many advancements and fine tuning, the overall accuracy and speed
 could improve drastically.
 
-**3.** **Accessibility**
+###**3.** **Accessibility**
 
 This could be made into a phone app that would allow this technology to
 be used wherever, and by many people.
 
-> Thanks
+## Thanks
 
 I would just like to thank Mr. Thorlakson for lending a helping hand all
 throughout the project and for the hardware I ran it on.
@@ -273,7 +278,7 @@ helping set up my backboard.
 I would finally also like to thank all the judges and staff for hosting
 this year’s M.S.S.S. It can't be done without them.
 
-> Bibliography
+## Bibliography
 
 World Health Organization. (n.d.). *Deafness* *and* *hearing* *loss*.
 World Health Organization.

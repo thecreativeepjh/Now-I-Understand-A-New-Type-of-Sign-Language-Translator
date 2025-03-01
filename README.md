@@ -2,7 +2,7 @@
  ## A New Type of Sign Language Translator
 
  **Ezra** **Huska**
- Grade 8 Student
+ **2024**
 
 
  ## **Abstract**

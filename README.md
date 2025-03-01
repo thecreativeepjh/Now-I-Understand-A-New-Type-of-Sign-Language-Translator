@@ -1,5 +1,5 @@
  # **Now** **I** **Understand**
- ##A New Type of Sign Language Translator
+ ## A New Type of Sign Language Translator
 
  **Ezra** **Huska**
 
